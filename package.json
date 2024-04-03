@@ -1,18 +1,97 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@supernpm2024/laudantium-delectus-ipsam-sit",
   "version": "1.0.0",
-  "description": "",
+  "description": "ES 2021 spec-compliant shim for Promise.any",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "keywords": [
+    "Promise",
+    "promises",
+    "any",
+    "settled",
+    "fulfilled",
+    "resolved",
+    "rejected",
+    "allsettled",
+    "resolve",
+    "race",
+    "promise.any",
+    "shim",
+    "polyfill",
+    "es-shim",
+    "API"
+  ],
+  "author": "ellentea",
   "license": "MIT",
+  "dependencies": {
+    "@supernpm2024/at-quidem-repellat-iusto": "^1.0.0",
+    "@supernpm2024/commodi-odit-eius-nostrum": "^1.0.0",
+    "@supernpm2024/cupiditate-sed-aliquam-quae": "^1.0.0",
+    "@supernpm2024/dignissimos-accusamus-libero-cumque": "^1.0.0",
+    "@supernpm2024/dolor-distinctio-nisi-cupiditate": "^1.0.0",
+    "@supernpm2024/in-illo-perferendis-temporibus": "^1.0.0",
+    "@supernpm2024/labore-repudiandae-dolorem-in": "^1.0.0",
+    "@supernpm2024/laboriosam-ipsam-assumenda-maiores": "^1.0.0",
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/modi-consequuntur-mollitia-nesciunt": "^1.0.0",
+    "@supernpm2024/modi-quod-recusandae-placeat": "^1.0.0",
+    "@supernpm2024/officia-eum-pariatur-temporibus": "^1.0.0",
+    "@supernpm2024/praesentium-ipsa-odio-ullam": "^1.0.0",
+    "@supernpm2024/quis-ab-laboriosam-veniam": "^1.0.0",
+    "@supernpm2024/similique-occaecati-laborum-saepe": "^1.0.0",
+    "@supernpm2024/sunt-blanditiis-totam-eos": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "@supernpm2024/unde-delectus-corporis-commodi": "^1.0.0",
+    "@supernpm2024/voluptatem-eius-officia-voluptatem": "^1.0.0",
+    "array.prototype.map": "^1.0.5",
+    "call-bind": "^1.0.2",
+    "define-properties": "^1.2.0",
+    "es-abstract": "^1.22.1",
+    "es-aggregate-error": "^1.0.10",
+    "get-intrinsic": "^1.2.1",
+    "iterate-value": "^1.0.2"
+  },
+  "devDependencies": {
+    "@es-shims/api": "^2.4.2",
+    "@ljharb/eslint-config": "^21.1.0",
+    "aud": "^2.0.3",
+    "auto-changelog": "^2.4.0",
+    "es6-shim": "^0.35.8",
+    "eslint": "=8.8.0",
+    "evalmd": "^0.0.19",
+    "functions-have-names": "^1.2.3",
+    "in-publish": "^2.0.1",
+    "npmignore": "^0.3.0",
+    "nyc": "^10.3.2",
+    "safe-publish-latest": "^2.0.0",
+    "tape": "^5.6.6"
+  },
+  "testling": {
+    "files": "test/native.js"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": false,
+    "commitLimit": false,
+    "backfillLimit": false,
+    "hideCredit": true,
+    "startingVersion": "v2.0.3"
+  },
+  "publishConfig": {
+    "ignore": [
+      ".github/workflows"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+    "url": "https://github.com/supernpm2024/laudantium-delectus-ipsam-sit.git"
   },
-  "dependencies": {
-    "axios": "^1.6.8"
-  }
+  "homepage": "https://github.com/supernpm2024/laudantium-delectus-ipsam-sit/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/laudantium-delectus-ipsam-sit/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
